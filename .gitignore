@@ -1,0 +1,11 @@
+# 备份文件
+*.backup-*
+backup/
+
+# 记忆文件（用户在项目中生成的数据）
+.xiaobai/memory.jsonl
+.xiaobai/memory.archive.jsonl
+
+# 系统文件
+.DS_Store
+Thumbs.db
