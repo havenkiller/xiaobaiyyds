@@ -6,6 +6,16 @@
 
 **小白 yyds** 是你的专属 AI 任务管家。它自动掌握你 skill 库里全部能力，面对任何任务都能智能匹配最合适的 skill 来执行。复杂任务还能启动专家团模式——像一整个产品团队帮你干活。
 
+## 宣传物料
+
+xiaobaiyyds 有完整的品牌宣传手册，欢迎查阅：
+
+- 📄 **[宣传手册（HTML）](showcase/brochure.html)** — 在线查看，包含全部 8 页内容
+- 🖼️ **[封面预览](showcase/xiaobai-brochure.png)** — 宣传手册封面
+- 📕 **[宣传手册 PDF](showcase/xiaobai-brochure.pdf)** — 8 页全彩 PDF，适合分享和打印
+
+设计哲学：**温润精密** — 暖白 + 玫瑰粉配色，非对称几何构图，精密工艺感。
+
 ## 快速安装
 
 ```bash
@@ -51,7 +61,11 @@ xiaobaiyyds/
 │   ├── skill-index-schema.md
 │   └── team-workflow.md
 ├── LICENSE               ← MIT 协议
-└── README.md
+├── README.md
+└── showcase/             ← 宣传物料
+    ├── brochure.html     ← 宣传手册（HTML 源码）
+    ├── xiaobai-brochure.png  ← 宣传手册封面预览
+    └── xiaobai-brochure.pdf  ← 宣传手册完整版（8页PDF）
 ```
 
 ## 进阶使用技巧
