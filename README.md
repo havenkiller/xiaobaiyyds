@@ -9,13 +9,13 @@
 ## 快速安装
 
 ```bash
-npx skills add <你的GitHub用户名>/xiaobaiyyds
+npx skills add havenkiller/xiaobaiyyds
 ```
 
 或手动克隆：
 
 ```bash
-git clone https://github.com/<你的GitHub用户名>/xiaobaiyyds.git ~/.claude/skills/xiaobaiyyds
+git clone https://github.com/havenkiller/xiaobaiyyds.git ~/.claude/skills/xiaobaiyyds
 ```
 
 ## 使用方式
