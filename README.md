@@ -44,10 +44,10 @@ git clone https://github.com/havenkiller/xiaobaiyyds.git ~/.claude/skills/xiaoba
 - **持久记忆** — 跨会话记住交互记录、决策、偏好、踩过的坑
 - **自动保存** — 完成任务/发现偏好/做出决策时自动保存到项目记忆
 
-## 生态参考
+## 推荐安装的所有 skills（本人自用的全部 skills）
 
-xiaobaiyyds 在你本地整合了 **94 个 skill**，涵盖开发框架、方法论、设计、搜索、安全等全领域。
-详见 [skill-source-list.md](references/skill-source-list.md) 了解全部 skill 的安装来源和说明。
+以下是本人自用的全部 skill 清单，涵盖开发框架、方法论、设计、搜索、安全等全领域，共 **90 个**。
+详见 [skill-source-list.md](references/skill-source-list.md)。
 
 ## 依赖
 
@@ -64,7 +64,7 @@ xiaobaiyyds/
 ├── rule-CLAUDE.md        ← 行为准则
 ├── references/           ← 参考文档
 │   ├── skill-index-schema.md
-│   ├── skill-source-list.md   ← 全部94个skill安装来源汇总
+│   ├── skill-source-list.md   ← 全部90个skill安装来源汇总
 │   └── team-workflow.md
 ├── LICENSE               ← MIT 协议
 ├── README.md

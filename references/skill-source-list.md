@@ -1,7 +1,7 @@
 # xiaobaiyyds Skill 安装来源汇总
 
 > 整理时间：2026-05-10
-> 本地已安装 Skill 总数：**94 个**
+> 推荐安装 Skill 总数：**90 个**
 > 说明：以下按来源分组，每个 skill 标注了官方安装渠道。你**已经安装**了这些 skill，此文件仅用作查阅和备份。
 
 ---
@@ -275,18 +275,6 @@ cd ~/.claude/plugins/claude-mem && ./install
 | `test-driven-development` | 社区（来源于 superpowers 生态） | 随 superpowers 安装 |
 
 ---
-
-## 六、本地自定义 Skill
-
-以下 skill 为本地创建或来自中文社区，**无官方远程仓库**：
-
-| # | Skill 名称 | 说明 | 来源 |
-|---|-----------|------|------|
-| 1 | `xiaobaiyyds` | 超级智能助手 - 你的专属任务处理中枢 | 本地创建 |
-| 2 | `daily-trending` | 每日热搜（微博/知乎/百度等） | 社区（tophub.today 抓取） |
-| 3 | `skill-command-system` | 指令系统 - skill 路由映射 | 中文社区 |
-| 4 | `swust-thesis` | 西南科技大学毕业论文格式规范 | 本地创建（基于 japinli/swust-thesis） |
-
 ---
 
 ## 汇总统计
@@ -306,7 +294,7 @@ cd ~/.claude/plugins/claude-mem && ./install
 | Find Skills（Vercel Labs） | 1 | `npx skills add` |
 | Claude-Mem | 1 | `git clone` |
 | 本地/社区自定义 | 4 | 无远程仓库 |
-| **总计** | **~94** | |
+| **总计** | **~90** | |
 
 ---
 
@@ -333,7 +321,6 @@ cd ~/.claude/plugins/claude-mem && ./install
 | connect-chrome | 一 gstack |
 | context-restore / context-save | 一 gstack |
 | cso | 一 gstack |
-| daily-trending | 六 本地自定义 |
 | design-consultation / design-html / design-review / design-shotgun | 一 gstack |
 | devex-review | 一 gstack |
 | dispatching-parallel-agents | 二 Superpowers |
@@ -370,12 +357,10 @@ cd ~/.claude/plugins/claude-mem && ./install
 | scrape | 一 gstack |
 | setup-browser-cookies / setup-deploy / setup-gbrain | 一 gstack |
 | ship | 一 gstack |
-| skill-command-system | 六 本地自定义 |
 | skill-creator | 三 Anthropic 官方 |
 | skillify | 一 gstack |
 | slack-gif-creator | 三 Anthropic 官方 |
 | subagent-driven-development | 二 Superpowers |
-| swust-thesis | 六 本地自定义 |
 | sync-gbrain | 一 gstack |
 | systematic-debugging | 二 Superpowers |
 | tavily-search | 五.3 Tavily |
@@ -391,5 +376,4 @@ cd ~/.claude/plugins/claude-mem && ./install
 | webapp-testing | 三 Anthropic 官方 |
 | writing-plans | 二 Superpowers |
 | writing-skills | 二 Superpowers |
-| xiaobaiyyds | 六 本地自定义 |
 | xlsx | 三 Anthropic 官方 |
