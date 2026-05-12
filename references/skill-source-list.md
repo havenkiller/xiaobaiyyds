@@ -1,7 +1,7 @@
 # xiaobaiyyds Skill 安装来源汇总
 
-> 整理时间：2026-05-10
-> 推荐安装 Skill 总数：**90 个**
+> 整理时间：2026-05-13
+> 推荐安装 Skill 总数：**91 个**
 > 说明：以下按来源分组，每个 skill 标注了官方安装渠道。你**已经安装**了这些 skill，此文件仅用作查阅和备份。
 
 ---
@@ -274,6 +274,20 @@ cd ~/.claude/plugins/claude-mem && ./install
 |-------|------|----------|
 | `test-driven-development` | 社区（来源于 superpowers 生态） | 随 superpowers 安装 |
 
+### 5.10 Agent Reach（Panniantong）
+
+**官方仓库**：https://github.com/Panniantong/Agent-Reach
+**Stars**：⭐ 19,325 · **MIT 开源许可** · 完全免费
+**安装方式**：
+```bash
+npx skills add https://github.com/Panniantong/Agent-Reach -g
+pip install agent-reach
+agent-reach install --env=auto
+```
+| Skill | `agent-reach` |
+|-------|--------------|
+| 说明 | 全平台信息触达 Agent — 搜索/社交/开发/视频/网页/公众号/RSS 全覆盖，17 个平台零配置直连 |
+
 ---
 ---
 
@@ -293,8 +307,9 @@ cd ~/.claude/plugins/claude-mem && ./install
 | Pentest（Transilience AI） | 1 | `git clone` |
 | Find Skills（Vercel Labs） | 1 | `npx skills add` |
 | Claude-Mem | 1 | `git clone` |
+| Agent Reach（Panniantong） | 1 | `npx skills add` + `pip install` |
 | 本地/社区自定义 | 4 | 无远程仓库 |
-| **总计** | **~90** | |
+| **总计** | **~91** | |
 
 ---
 
@@ -305,6 +320,7 @@ cd ~/.claude/plugins/claude-mem && ./install
 | Skill 名称 | 所属来源 |
 |-----------|---------|
 | agent-browser | 五.1 Vercel Labs |
+| agent-reach | 五.10 Panniantong |
 | algorithmic-art | 三 Anthropic 官方 |
 | autoplan | 一 gstack |
 | benchmark / benchmark-models | 一 gstack |
