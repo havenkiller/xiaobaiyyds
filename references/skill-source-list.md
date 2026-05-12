@@ -1,7 +1,7 @@
 # xiaobaiyyds Skill 安装来源汇总
 
 > 整理时间：2026-05-13
-> 推荐安装 Skill 总数：**90 个**
+> 推荐安装 Skill 总数：**95 个**
 > 说明：以下按来源分组，每个 skill 标注了官方安装渠道。你**已经安装**了这些 skill，此文件仅用作查阅和备份。
 
 ---
@@ -155,16 +155,18 @@ git clone https://github.com/MiniMax-AI/skills.git ~/.claude/plugins/marketplace
 | 4 | `minimax-multimodal-toolkit` | 多模态工具包 |
 | 5 | `minimax-music-gen` | 音乐生成 |
 | 6 | `minimax-music-playlist` | 音乐播放列表 |
-| 7 | `minimax-multimodal-toolkit` | 多模态工具包 |
-| 8 | `frontend-dev` | 前端开发 |
-| 9 | `fullstack-dev` | 全栈开发 |
-| 10 | `flutter-dev` | Flutter 开发 |
-| 11 | `android-native-dev` | Android 原生开发 |
-| 12 | `ios-application-dev` | iOS 应用开发 |
-| 13 | `buddy-sings` | 唱歌机器人 |
-| 14 | `gif-sticker-maker` | GIF 贴纸制作 |
-| 15 | `pptx-generator` | PPT 生成 |
-| 16 | `pr-review` | PR 审查 |
+| 7 | `frontend-dev` | 前端开发 |
+| 8 | `fullstack-dev` | 全栈开发 |
+| 9 | `flutter-dev` | Flutter 开发 |
+| 10 | `android-native-dev` | Android 原生开发 |
+| 11 | `ios-application-dev` | iOS 应用开发 |
+| 12 | `buddy-sings` | 唱歌机器人 |
+| 13 | `gif-sticker-maker` | GIF 贴纸制作 |
+| 14 | `pptx-generator` | PPT 生成 |
+| 15 | `pr-review` | PR 审查 |
+| 16 | `react-native-dev` | React Native 开发 |
+| 17 | `shader-dev` | Shader 开发 |
+| 18 | `vision-analysis` | 视觉分析/识图 |
 
 > 注：MiniMax 的 skill 通过插件系统管理，不直接安装在 `~/.claude/skills/` 目录中，但可通过 `/plugin` 命令调用。
 
@@ -277,7 +279,23 @@ rm -rf /tmp/impeccable
 |-------|-------------|
 | 说明 | AI 设计反模式检测 Skill — 23 个命令、27 条确定性反模式规则、7 个领域参考文件，让 AI 输出告别千篇一律的 SaaS 模板风格 |
 
----
+### 5.10 Remotion（社区）
+
+**官方仓库**：https://github.com/remotion-dev/remotion
+**安装方式**：
+```bash
+npx create-video@latest
+```
+| Skill | `remotion` |
+|-------|-----------|
+| 说明 | 用 React 编写视频 — 程序化视频剪辑框架，支持 TypeScript、60fps、多轨合成 |
+
+### 5.11 Video Use（社区）
+
+| Skill | `video-use` |
+|-------|------------|
+| 说明 | 视频处理与剪辑相关 skill |
+
 ---
 
 ## 汇总统计
@@ -287,7 +305,7 @@ rm -rf /tmp/impeccable
 | gstack（garrytan/gstack） | 48 | `git clone` + `./setup` |
 | Superpowers（obra/superpowers） | 16 | `/plugin install` |
 | Anthropic 官方（anthropics/skills） | 17 | `/plugin marketplace add` |
-| MiniMax Skills | ~16 | `/plugin marketplace add` |
+| MiniMax Skills | 18 | `/plugin marketplace add` |
 | Agent Browser（Vercel Labs） | 1 | `npm install -g` |
 | Firecrawl | 1 | `npx firecrawl-cli` |
 | Tavily | 1 | `npx skills add` |
@@ -296,8 +314,10 @@ rm -rf /tmp/impeccable
 | Claude-Mem | 1 | `git clone` |
 | Agent Reach（Panniantong） | 1 | `npx skills add` + `pip install` |
 | Impeccable（pbakaus） | 1 | `git clone` + `cp -r` |
+| Remotion（社区） | 1 | `npx create-video@latest` |
+| Video Use（社区） | 1 | 无远程仓库 |
 | 本地/社区自定义 | 4 | 无远程仓库 |
-| **总计** | **~90** | |
+| **总计** | **~95** | |
 
 ---
 
@@ -351,16 +371,19 @@ rm -rf /tmp/impeccable
 | open-gstack-browser | 一 gstack |
 | pair-agent | 一 gstack |
 | pdf | 三 Anthropic 官方 |
-| pentest | 五.6 Transilience AI |
+| pentest | 五.4 Transilience AI |
 | plan-ceo-review / plan-design-review / plan-devex-review / plan-eng-review / plan-tune | 一 gstack |
 | planning-with-files / planning-with-files-zh / planning-with-files-zht | 二 Superpowers |
 | pptx | 三 Anthropic 官方 |
 | qa / qa-only | 一 gstack |
+| react-native-dev | 四 MiniMax |
 | receiving-code-review / requesting-code-review | 二 Superpowers |
+| remotion | 五.10 社区 |
 | retro | 一 gstack |
 | review | 一 gstack |
 | scrape | 一 gstack |
 | setup-browser-cookies / setup-deploy / setup-gbrain | 一 gstack |
+| shader-dev | 四 MiniMax |
 | ship | 一 gstack |
 | skill-creator | 三 Anthropic 官方 |
 | skillify | 一 gstack |
@@ -375,6 +398,8 @@ rm -rf /tmp/impeccable
 | using-git-worktrees | 二 Superpowers |
 | using-superpowers | 二 Superpowers |
 | verification-before-completion | 二 Superpowers |
+| video-use | 五.11 社区 |
+| vision-analysis | 四 MiniMax |
 | web-artifacts-builder | 三 Anthropic 官方 |
 | webapp-testing | 三 Anthropic 官方 |
 | writing-plans | 二 Superpowers |
