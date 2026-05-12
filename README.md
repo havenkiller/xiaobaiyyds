@@ -46,7 +46,7 @@ git clone https://github.com/havenkiller/xiaobaiyyds.git ~/.claude/skills/xiaoba
 
 ## 推荐安装的所有 skills（本人自用的全部 skills）
 
-以下是本人自用的全部 skill 清单，涵盖开发框架、方法论、设计、搜索、安全等全领域，共 **91 个**。
+以下是本人自用的全部 skill 清单，涵盖开发框架、方法论、设计、搜索、安全等全领域，共 **90 个**。
 详见 [skill-source-list.md](references/skill-source-list.md)。
 
 ## 依赖
@@ -64,7 +64,7 @@ xiaobaiyyds/
 ├── rule-CLAUDE.md        ← 行为准则
 ├── references/           ← 参考文档
 │   ├── skill-index-schema.md
-│   ├── skill-source-list.md   ← 全部91个skill安装来源汇总
+│   ├── skill-source-list.md   ← 全部90个skill安装来源汇总
 │   └── team-workflow.md
 ├── LICENSE               ← MIT 协议
 ├── README.md

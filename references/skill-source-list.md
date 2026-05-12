@@ -1,7 +1,7 @@
 # xiaobaiyyds Skill 安装来源汇总
 
 > 整理时间：2026-05-13
-> 推荐安装 Skill 总数：**91 个**
+> 推荐安装 Skill 总数：**90 个**
 > 说明：以下按来源分组，每个 skill 标注了官方安装渠道。你**已经安装**了这些 skill，此文件仅用作查阅和备份。
 
 ---
@@ -208,32 +208,7 @@ npx skills add https://github.com/tavily-ai/skills
 |-------|----------------|
 | 说明 | LLM 优化的网络搜索结果 |
 
-### 5.4 UI/UX Pro Max（nextlevelbuilder）
-
-**官方仓库**：https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
-**安装方式**：
-```bash
-npm install -g uipro-cli && uipro init --ai claude
-# 或：npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max
-# 或：/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
-```
-| Skill | `ui-ux-pro-max` |
-|-------|----------------|
-| 说明 | UI/UX 设计智能，50+ 风格、161 调色板、57 字体配对 |
-
-### 5.5 Web Design Engineer（ConardLi/garden-skills）
-
-**官方仓库**：https://github.com/ConardLi/garden-skills
-**安装方式**：
-```bash
-/plugin marketplace add ConardLi/web-design-skill
-/plugin install web-design-skills@agent-skills
-```
-| Skill | `web-design-engineer` |
-|-------|----------------------|
-| 说明 | 高质量 Web 视觉设计，反 AI 俗套原则 |
-
-### 5.6 Pentest 渗透测试（Transilience AI）
+### 5.4 Pentest 渗透测试（Transilience AI）
 
 **官方仓库**：https://github.com/transilienceai/communitytools
 **安装方式**：
@@ -245,7 +220,7 @@ git clone https://github.com/transilienceai/communitytools.git
 |-------|-----------|
 | 说明 | 高级渗透测试与黑客技术，27 skill + Kali Docker + HexStrike MCP |
 
-### 5.7 Find Skills（Vercel Labs）
+### 5.5 Find Skills（Vercel Labs）
 
 **官方仓库**：https://github.com/vercel-labs/skills
 **安装方式**：
@@ -256,7 +231,7 @@ npx skills add vercel-labs/skills@find-skills -g -y
 |-------|--------------|
 | 说明 | 元 skill，帮助发现和安装其他 skill |
 
-### 5.8 Claude-Mem（thedotmack）
+### 5.6 Claude-Mem（thedotmack）
 
 **官方仓库**：https://github.com/thedotmack/claude-mem
 **安装方式**：
@@ -268,13 +243,13 @@ cd ~/.claude/plugins/claude-mem && ./install
 |-------|-------------|
 | 说明 | 跨会话记忆压缩系统，v12.3.8 |
 
-### 5.9 TDD Skill（社区）
+### 5.7 TDD Skill（社区）
 
 | Skill | 来源 | 安装方式 |
 |-------|------|----------|
 | `test-driven-development` | 社区（来源于 superpowers 生态） | 随 superpowers 安装 |
 
-### 5.10 Agent Reach（Panniantong）
+### 5.8 Agent Reach（Panniantong）
 
 **官方仓库**：https://github.com/Panniantong/Agent-Reach
 **Stars**：⭐ 19,325 · **MIT 开源许可** · 完全免费
@@ -287,6 +262,20 @@ agent-reach install --env=auto
 | Skill | `agent-reach` |
 |-------|--------------|
 | 说明 | 全平台信息触达 Agent — 搜索/社交/开发/视频/网页/公众号/RSS 全覆盖，17 个平台零配置直连 |
+
+### 5.9 Impeccable（Paul Bakaus / pbakaus）
+
+**官方仓库**：https://github.com/pbakaus/impeccable
+**Stars**：⭐ 27,215 · **Apache 2.0 开源许可** · 完全免费
+**安装方式**（Claude Code 全局安装）：
+```bash
+git clone --depth 1 https://github.com/pbakaus/impeccable.git /tmp/impeccable
+cp -r /tmp/impeccable/.claude/skills/impeccable ~/.claude/skills/impeccable
+rm -rf /tmp/impeccable
+```
+| Skill | `impeccable` |
+|-------|-------------|
+| 说明 | AI 设计反模式检测 Skill — 23 个命令、27 条确定性反模式规则、7 个领域参考文件，让 AI 输出告别千篇一律的 SaaS 模板风格 |
 
 ---
 ---
@@ -302,14 +291,13 @@ agent-reach install --env=auto
 | Agent Browser（Vercel Labs） | 1 | `npm install -g` |
 | Firecrawl | 1 | `npx firecrawl-cli` |
 | Tavily | 1 | `npx skills add` |
-| UI/UX Pro Max | 1 | `npm install -g uipro-cli` |
-| Web Design Engineer | 1 | `/plugin marketplace add` |
 | Pentest（Transilience AI） | 1 | `git clone` |
 | Find Skills（Vercel Labs） | 1 | `npx skills add` |
 | Claude-Mem | 1 | `git clone` |
 | Agent Reach（Panniantong） | 1 | `npx skills add` + `pip install` |
+| Impeccable（pbakaus） | 1 | `git clone` + `cp -r` |
 | 本地/社区自定义 | 4 | 无远程仓库 |
-| **总计** | **~91** | |
+| **总计** | **~90** | |
 
 ---
 
@@ -320,7 +308,7 @@ agent-reach install --env=auto
 | Skill 名称 | 所属来源 |
 |-----------|---------|
 | agent-browser | 五.1 Vercel Labs |
-| agent-reach | 五.10 Panniantong |
+| agent-reach | 五.8 Panniantong |
 | algorithmic-art | 三 Anthropic 官方 |
 | autoplan | 一 gstack |
 | benchmark / benchmark-models | 一 gstack |
@@ -332,7 +320,7 @@ agent-reach install --env=auto
 | careful | 一 gstack |
 | checkpoint | 一 gstack |
 | claude-api | 三 Anthropic 官方 |
-| claude-mem | 五.8 thedotmack |
+| claude-mem | 五.6 thedotmack |
 | codex | 一 gstack |
 | connect-chrome | 一 gstack |
 | context-restore / context-save | 一 gstack |
@@ -344,7 +332,7 @@ agent-reach install --env=auto
 | document-release | 一 gstack |
 | docx | 三 Anthropic 官方 |
 | executing-plans | 二 Superpowers |
-| find-skills | 五.7 Vercel Labs |
+| find-skills | 五.5 Vercel Labs |
 | finishing-a-development-branch | 二 Superpowers |
 | firecrawl-search | 五.2 Firecrawl |
 | freeze | 一 gstack |
@@ -352,6 +340,7 @@ agent-reach install --env=auto
 | gstack / gstack-upgrade | 一 gstack |
 | guard | 一 gstack |
 | health | 一 gstack |
+| impeccable | 五.9 pbakaus |
 | internal-comms | 三 Anthropic 官方 |
 | investigate | 一 gstack |
 | land-and-deploy / landing-report | 一 gstack |
@@ -382,13 +371,11 @@ agent-reach install --env=auto
 | tavily-search | 五.3 Tavily |
 | test-driven-development | 二 Superpowers 生态 |
 | theme-factory | 三 Anthropic 官方 |
-| ui-ux-pro-max | 五.4 nextlevelbuilder |
 | unfreeze | 一 gstack |
 | using-git-worktrees | 二 Superpowers |
 | using-superpowers | 二 Superpowers |
 | verification-before-completion | 二 Superpowers |
 | web-artifacts-builder | 三 Anthropic 官方 |
-| web-design-engineer | 五.5 ConardLi |
 | webapp-testing | 三 Anthropic 官方 |
 | writing-plans | 二 Superpowers |
 | writing-skills | 二 Superpowers |
